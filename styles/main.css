@@ -26,6 +26,11 @@ body{
     width: 100vw;
 }
 
+.tbl-container{
+    display: grid;
+    align-self: center;
+}
+
 .footer{
     display: inherit;
     align-items: center;
