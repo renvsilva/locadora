@@ -1,34 +1,37 @@
 body{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    height: 1920px;
-    width: 1080px;
+    height: 100vh;
+    width: 100vw;
     margin: 0;
     padding: 0;
 }
 
 .header{
-    display: flex;
-    align-self: flex-start;
-    align-items: center;
-    justify-content: center;
-    height: 5%;
-    width: 100%;
+    display: inherit;
+    height: 10vh;
+    width: 100vw;
     background-color: gray;
+    color: aliceblue;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .container{
-    display: flex;
-    align-items: center;
-    align-self: center;
+    display: inherit;
+    justify-content: center;
+    height: 80vh;
+    width: 100vw;
 }
 
 .footer{
-    display: flex;
-    position: relative;
-    align-self: flex-end;
+    display: inherit;
     align-items: center;
     justify-content: center;
-    height: 10%;
-    width: 100%;   
+    background-color: gray;
+    color: aliceblue;
+    height: 15vh;
+    width: 100vw;
 }
